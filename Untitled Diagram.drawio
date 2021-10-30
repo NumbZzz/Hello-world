@@ -1,1 +1,213 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T09:01:51.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" version="15.6.2" etag="zg5qohGI8CLjs1T7_UJe" type="github"><diagram id="v1obYDcHvK7fKlDpUwRL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-30T09:20:08.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="YwB2VU2lO0KuXHz8h_He" version="15.6.2" type="github">
+  <diagram id="v1obYDcHvK7fKlDpUwRL" name="Page-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kalEr98f_9NI5hnUUycx-1" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="850" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-2" value="普通用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="715" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-6" value="登录" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-7" value="注册" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="700" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-8" value="修改密码" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="740" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-9" value="报表管理" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-10" value="数据导入" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-11" value="报表创建" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="770" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-12" value="报表修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="810" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.322;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-13" target="kalEr98f_9NI5hnUUycx-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-36" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-35">
+          <mxGeometry x="-0.3699" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-13" value="报表删除" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-14" value="报表导出" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="940" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-15" value="数据分析" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="865" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-15" target="kalEr98f_9NI5hnUUycx-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="850" as="sourcePoint" />
+            <mxPoint x="500" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-9" target="kalEr98f_9NI5hnUUycx-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="800" as="sourcePoint" />
+            <mxPoint x="450" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-19" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-18">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.05;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-9" target="kalEr98f_9NI5hnUUycx-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="810" as="sourcePoint" />
+            <mxPoint x="460.25126265847075" y="775.6066017177982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-23" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-22">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="820" as="sourcePoint" />
+            <mxPoint x="440" y="820" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-27" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-26">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kalEr98f_9NI5hnUUycx-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="820" as="sourcePoint" />
+            <mxPoint x="480.25126265847075" y="839.9966017177981" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-29" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-28">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-9" target="kalEr98f_9NI5hnUUycx-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="830" as="sourcePoint" />
+            <mxPoint x="460.25126265847075" y="829.9966017177981" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-31" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-30">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-32" value="用户权限验证" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="610" y="810" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="kalEr98f_9NI5hnUUycx-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="834" as="sourcePoint" />
+            <mxPoint x="637.3115062254672" y="897.1015211922146" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="834" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-34" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-33">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-37" target="kalEr98f_9NI5hnUUycx-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-41" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-40">
+          <mxGeometry x="-0.4634" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-37" value="报表查询" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="895" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kalEr98f_9NI5hnUUycx-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.99873734152925" y="822.1766017177982" as="sourcePoint" />
+            <mxPoint x="464.26199006442994" y="937.8203114554098" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-39" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kalEr98f_9NI5hnUUycx-38">
+          <mxGeometry x="0.2861" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-2" target="kalEr98f_9NI5hnUUycx-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="810" as="sourcePoint" />
+            <mxPoint x="240" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="kalEr98f_9NI5hnUUycx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="740" as="sourcePoint" />
+            <mxPoint x="210" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-2" target="kalEr98f_9NI5hnUUycx-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="790" as="sourcePoint" />
+            <mxPoint x="230" y="740" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-47" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-2" target="kalEr98f_9NI5hnUUycx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="825" as="sourcePoint" />
+            <mxPoint x="210" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-1" target="kalEr98f_9NI5hnUUycx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="940" as="sourcePoint" />
+            <mxPoint x="210" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-49" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-1" target="kalEr98f_9NI5hnUUycx-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="960" as="sourcePoint" />
+            <mxPoint x="190" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-1" target="kalEr98f_9NI5hnUUycx-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="930" as="sourcePoint" />
+            <mxPoint x="210" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kalEr98f_9NI5hnUUycx-52" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="kalEr98f_9NI5hnUUycx-1" target="kalEr98f_9NI5hnUUycx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="950" as="sourcePoint" />
+            <mxPoint x="230" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
